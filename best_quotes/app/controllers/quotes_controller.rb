@@ -4,7 +4,7 @@ class QuotesController < Rulers::Controller
   end
 
   def a_quote
-    "There is nothing either good or bad"
+    "There ain't nothing either good or bad" +
     "\n<pre>\n#{env}\n</pre>"
   end
 end
