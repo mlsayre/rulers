@@ -4,7 +4,6 @@ class QuotesController < Rulers::Controller
   end
 
   def a_quote
-    "There ain't nothing either good or bad" +
-    "\n<pre>\n#{env}\n</pre>"
+    render :a_quote, :noun => :winking
   end
 end
